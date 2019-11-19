@@ -1,0 +1,228 @@
+.backround {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("drakee.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.wrapper {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	bottom: 0;
+	right: 0px;
+	margin: auto;
+	width: 1024px;
+	height: 750px;
+	top: 400px;
+	 
+}
+.box1 {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  left: 250px; 
+  right: 100px;
+  background-color: rgb(20, 34, 245);
+}
+h1 {
+  position: absolute;
+  font-family: 'Anton', sans-serif;
+    width: 100%;
+    left: 290px;
+    top: -210px;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 75px;
+}
+  h2 {
+  position: absolute;
+  font-family: 'Anton', sans-serif;
+    width: 100%;
+    left: 290px;
+    top: -160px;
+  text-align: center;
+  color: rgb(9,242,219,95);
+  font-size: 90px;
+
+}
+h3 {
+ position: absolute;
+  font-family: 'Anton', sans-serif;
+    width: 100%;
+    left: 290px;
+    top: -110px;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 110px;
+
+}
+ h4 {
+  position: absolute;
+  font-family: 'Anton', sans-serif;;
+    top: -37px;
+    width: 100%;
+    left: 290px;
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size: 110px;
+  }
+   h5 {
+  position: absolute;
+  font-family: 'Anton', sans-serif;;
+    top: 153px;
+    width: 100%;
+    left: 205px;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 50px;
+}
+ h6 {
+  position: absolute;
+  font-family: 'Anton', sans-serif;;
+  top: 120px;
+    width: 100%;
+    left: 380px;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 50px;
+}
+.price{
+  position: absolute;
+    top: 408px;
+    left: 450px;
+    width: 100%;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+
+}
+
+
+.location{
+	  position: absolute;
+    top: 428px;
+    left: 180px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+ @media (max-width: 500px) {
+  .wrapper {
+  	position: absolute;
+  	width: 375px;
+  	height: 667px;
+  }
+  .backround {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110vw;
+	height: 112vh;
+	background-image: url("dphone.png");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center center;
+
+  }
+  .time {
+  	top: 400px;
+  	font-size: 20px;
+  	color: rgb(255, 0, 0);
+  }
+   .location{
+	  top: 554px;
+    left: -124px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255,255,255);
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+  
+   .price{
+  position: absolute;
+    top: 514px;
+    left: 180px;
+    width: 100%;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+  	
+  }
+h1 {
+  position: absolute;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    left: 20px;
+    top: 216px;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-size: 25px;
+}
+h2 {
+  position: absolute;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    left: 20px;
+    top: 210px;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-size: 50px;
+    
+}
+h3 {
+  position: absolute;
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    left: 20px;
+    top: 250px;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-size: 50px;
+  }
+  h4 {
+  position: absolute;
+    font-family: 'Anton', sans-serif;
+    top: 283px;
+    width: 100%;
+    left: 20px;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-size: 50px;
+  }
+  h5 {
+  position: absolute;
+    font-family: 'Anton', sans-serif;
+    top: 373px;
+    width: 100%;
+    left: -21px;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-size: 20px;
+  }
+    h6 {
+  position: absolute;
+    font-family: 'Anton', sans-serif;
+    top: 359px;
+    width: 100%;
+    left: 66px;
+    text-align: center;
+    color: rgb(9,242,219,95);
+    font-size: 20px;
+    }
+
+
+
+
+
