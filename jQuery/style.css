@@ -1,0 +1,111 @@
+.wrapper{
+  position: relative;
+  width: 1024px;
+  margin:0 auto;
+}
+
+.abs {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 100px;
+  left: 600px;
+  background-color: rgb(255, 255, 0);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black 
+  
+}
+.switch {
+  position: absolute;
+  top: 130px;
+  left: 250px;
+  width: 130px;
+  height: 46px;
+  border-radius: 14px;
+  background-color: rgb(43,43,43);
+}
+.box {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(10, 180, 40);
+}
+
+.inblock {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  background-color: rgb(1, 152, 23,60);
+  margin-top: 6px;
+  margin-left: 0px;
+  margin-right: 4px;
+  margin-bottom: -4px;
+  background-size: cover;
+  background-position: center;
+
+}
+.inblock:hover{
+  opacity: 0.5;
+
+}
+
+.inblock:hover:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:url("arrow2.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 61px;
+  letter-spacing: 1px;
+  color: rgb(255,255,255,255);
+}
+.box1 {
+  background-image:url("green.png");
+}
+.box2 {
+background-image:url("green1.png");
+}
+.box3 {
+  <img src="green.png">
+}
+.box4 {
+  <img src="green.png">
+}
+.box5 {
+  <img src="green.png">
+}
+.box6 {
+  <img src="green.png">
+}
+.box7 {
+  <img src="green.png">
+}
+.box8 {
+  <img src="green.png">
+}
+.box9 {
+  <img src="green.png">
+}
+.box10 {
+  <img src="green.png">
+}
