@@ -1,0 +1,308 @@
+.wrapper{
+  position: relative;
+  width: 1024px;
+  margin:0 auto;
+}
+
+.abs {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 100px;
+  left: 600px;
+  background-color: rgb(255, 255, 0);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black 
+  
+}
+.switch {
+  position: absolute;
+  top: 130px;
+  left: 250px;
+  width: 130px;
+  height: 46px;
+  border-radius: 14px;
+  background-color: rgb(43,43,43);
+}
+.box {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(10, 180, 40);
+}
+
+.inblock {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  top: 200px;
+  background-color: rgb(1, 152, 23,60);
+  margin-top: 6px;
+  margin-left: 0px;
+  margin-right: 4px;
+  margin-bottom: -4px;
+  background-size: cover;
+  background-position: center;
+
+}
+.inblock:hover{
+  opacity: 0.5;
+
+}
+
+.inblock:hover:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:url("arrow2.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 61px;
+  letter-spacing: 1px;
+  color: rgb(255,255,255,255);
+}
+.box1 {
+  background-image:url("green.png");
+}
+
+.box2 {
+background-image:url("green1.png");
+}
+
+.box3 {
+background-image:url("green3.png");
+}
+
+.box4 {
+background-image:url("green4.png");
+}
+
+.box5 {
+background-image:url("green5.png");
+}
+
+.box6 {
+background-image:url("green6.png");
+}
+
+.box7 {
+background-image:url("green7.png");
+}
+
+.box8 {
+background-image:url("green8.png");
+}
+
+.box9 {
+background-image:url("green9.png");
+}
+
+.box10 {
+background-image:url("green10.png");
+}
+
+.box11 {
+background-image:url("green11.png");
+}
+
+.box12 {
+background-image:url("green12.png");
+}
+
+.box13 {
+background-image:url("green13.png");
+}
+
+.box14 {
+background-image:url("green14.png");
+}
+
+.box15 {
+background-image:url("green15.png");
+}
+
+.box16 {
+background-image:url("green16.png");
+}
+
+.box17 {
+background-image:url("green17.png");
+}
+
+.box18 {
+background-image:url("green18.png");
+}
+
+.box19 {
+background-image:url("green19.png");
+}
+
+.box20 {
+background-image:url("green20.png");
+}
+
+.box21 {
+background-image:url("green21.png");
+}
+
+.box22 {
+background-image:url("green22.png");
+}
+
+.box23 {
+background-image:url("green23.png");
+}
+
+.box24 {
+background-image:url("green24.png");
+}
+
+.box25 {
+background-image:url("green25.png");
+}
+.box26 {
+background-image:url("green26.png");
+}
+
+.box27 {
+background-image:url("green27.png");
+}
+
+.box28 {
+background-image:url("green28.png");
+}
+
+.box29 {
+background-image:url("green29.png");
+}
+
+.box30 {
+background-image:url("green30.png");
+}
+
+.box31 {
+background-image:url("green31.png");
+}
+
+.box32 {
+background-image:url("green32.png");
+}
+
+.box33 {
+background-image:url("green33.png");
+}
+
+.box34 {
+background-image:url("green34.png");
+}
+
+.box35 {
+background-image:url("green35.png");
+}
+
+.box36 {
+background-image:url("green36.png");
+}
+
+.box37 {
+background-image:url("green37.png");
+}
+
+.box38 {
+background-image:url("green38.png");
+}
+
+.box39 {
+background-image:url("green39.png");
+}
+
+.box40 {
+background-image:url("green40.png");
+}
+
+.box41 {
+background-image:url("green41.png");
+}
+
+.box42 {
+background-image:url("green42.png");
+}
+
+.box43 {
+background-image:url("green43.png");
+}
+
+.box44 {
+background-image:url("green44.png");
+}
+
+.box45 {
+background-image:url("green45.png");
+}
+
+.box46 {
+background-image:url("green46.png");
+}
+
+.box47 {
+background-image:url("green47.png");
+}
+
+.box48 {
+background-image:url("green48.png");
+}
+
+.box49 {
+background-image:url("green49.png");
+}
+
+.box50 {
+background-image:url("green50.png");
+}
+
+.box51 {
+background-image:url("green51.png");
+}
+
+.box52 {
+background-image:url("green52.png");
+}
+
+.box53 {
+background-image:url("green53.png");
+}
+
+.box54 {
+background-image:url("green2.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
