@@ -1,0 +1,100 @@
+.box {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(20,20,20);
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.box2 {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(20,220,130);
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.box3 {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(80,0,190);
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.box4 {
+  position: absolute;
+  top: 100px;
+  left: 900px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(20,220,220);
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.box5 {
+  position: absolute;
+  top: 100px;
+  left: 1200px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(220,220,20);
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.box2 {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(20,220,20);
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.button {
+  position: absolute;
+  top: 500px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 25px;
+  background-color: rgb(20,20,20);
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+
+
+.box.alarm {
+  background-color: rgb(230, 18, 34);
+}
+
+@keyframes myAnim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
