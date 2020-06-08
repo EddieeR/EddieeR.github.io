@@ -1,0 +1,97 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("Artboard 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box2 {
+  position: absolute;
+  top: 350px;
+  left: 480px;
+  width: 150px;
+  height: 300px;
+  animation-name: animationA;
+  animation-duration: 11.0s;
+  animation-iteration-count: ;
+  animation-timing-function: ;
+  background-color: rgb(230, 18, 34)
+
+}
+.box3 {
+  position: absolute;
+  top: 350px;
+  left: 650px;
+  width: 150px;
+  height: 300px;
+  animation-name: animationA;
+  animation-duration: 9.5s;
+  animation-iteration-count: ;
+  animation-timing-function: initial;
+  background-color: (230, 18, 34);
+  
+}
+.box4 {
+  position: absolute;
+  top: 350px;
+  left: 815px;
+  width: 150px;
+  height: 300px;
+  animation-name: animationA;
+  animation-duration: 7s;
+  animation-iteration-count: 1s;
+  animation-timing-function: linear;
+  background-color: (230, 18, 34);
+  
+  
+}
+.box5 {
+  position: absolute;
+   top: 350px;
+  left: 985px;
+  width: 150px;
+  height: 300px;
+  animation-name: animationA;
+  animation-duration: 3.5s;
+  animation-iteration-count: ;
+  animation-timing-function: linear;
+  background-color: (230, 18, 34);
+  
+}
+
+.button {
+  position: absolute;
+  top: 770px;
+  width: 150px;
+  left: 750px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 25px;
+  background-color: rgb(20,20,20);
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  animation-name: animationA;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: in;
+  background-color: (230, 18, 34);
+}
+
+.box.alarm {
+  background-color: rgb(230, 18, 34);
+}
+
+@keyframes animationA {
+  0% {
+    background-color: rgb(1,219, 44, 86);
+  }
+  100% {
+    background-color: rgb(245,245, 12, 91);
+  }
+}
